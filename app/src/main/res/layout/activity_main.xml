@@ -6,13 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <WebView
-        android:id="@+id/my_webview"
-        android:layout_width="414dp"
-        android:layout_height="674dp"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="56dp" />
-
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
@@ -30,5 +23,12 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
+
+    <WebView
+        android:id="@+id/my_webview"
+        android:layout_width="409dp"
+        android:layout_height="673dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="57dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
