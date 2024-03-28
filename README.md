@@ -13,6 +13,8 @@ Sen skapade jag en HTML fil och gjorde så att den visas när knappen Internal W
         myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.loadUrl("file:///android_asset/about.html");
 ```
+Koden över är vart variablen myWebView får tilldelad sig den WebViewn som skapades innuti activity_main,
+samt skapandet av en WebViewClient och att den tilldelas myWebView, här enablar vi också javaskrivt och sätter att about.html ska vara den sida som laddas när appen startar
 
 Screenshots: Internal WebPage and External WebPage
 
